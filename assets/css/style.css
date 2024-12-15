@@ -1,0 +1,109 @@
+.ct {
+    border: 2px solid white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.about {
+    margin-top: 20px;
+    font-family: sans-serif;
+    /* flex: 1;
+    margin-right: 30px;
+    text-align: justify; */
+}
+
+.about h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button.secondary {
+    background-color: #4CAF50;
+}
+
+.features {
+    padding: 15x;
+    margin: 10px;
+}
+
+
+
+.feature-grid {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature i {
+    font-size: 3em;
+    color: #333;
+}
+
+.feature h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.feature p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* .dia {
+    margin-top: 20px;
+    font-family: sans-serif;
+    flex: 1;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.dia h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+} */
+
+.about p {
+    font-size: 1em;
+    line-height: 1.6;
+}
